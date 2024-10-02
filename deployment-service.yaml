@@ -13,7 +13,7 @@ spec:
         app: boardgame
     spec:
       containers:
-        - name: boardgame
+        - name: Boardgame
           image: syedmateen31/baordgame:latest # Image that will be used to containers in the cluster
           imagePullPolicy: Always
           ports:
